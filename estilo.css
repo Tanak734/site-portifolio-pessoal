@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #413d3d
+}
+
+/* --------- Barra lateral ----------- */
+/* 
+- barra lateral = toda a parte cinza
+- bloco-links = 
+
+*/
+.barra-lateral {
+    box-sizing: border-box;
+    height: 100%;
+    width: 200px;
+    border: 0px;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.barra-lateral > .bloco-links {
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid white;
+    margin: 0px 0px 10px 0px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+.barra-lateral > .bloco-links > a > .logo {
+    height: 30px;
+    margin: 5px;
+}
+
+.barra-lateral > .bloco-links a {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+.barra-lateral > .bloco-links {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.barra-lateral > p {
+    color: white;
+    height: 40px;
+}
+
+.barra-lateral > .foto img  {
+    height: 154px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid white;
+}
+/* ------------------------------- */
